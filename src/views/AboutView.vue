@@ -1,5 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <AllPokemonList></AllPokemonList>
   </div>
 </template>
+
+<script>
+
+
+import AllPokemonList from "@/components/AllPokemonList";
+
+export default {
+  components: {
+    AllPokemonList,
+  },
+};
+</script>
